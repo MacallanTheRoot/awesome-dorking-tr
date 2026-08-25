@@ -4,7 +4,7 @@ Katkılar Türkçe, kaynaklı ve mevcut yapı ile tutarlı olmalıdır.
 
 ## Operatör ve sözdizimi katkıları
 
-Yeni bir kayıt önermeden önce README'deki etkin listeyi ve [eski/kaldırılmış operatörleri](docs/eski-ve-kaldirilan-operatorler.md) kontrol ederek yinelenen katkılardan kaçının.
+Yeni bir kayıt önermeden önce README'deki etkin listeyi, [eski/kaldırılmış operatörleri](docs/eski-ve-kaldirilan-operatorler.md) ve [ürünlere özgü aramaları](docs/google-urunlerine-ozgu-aramalar.md) kontrol ederek yinelenen katkılardan kaçının.
 
 Her öneride mümkün olduğunca şunları belirtin:
 
@@ -16,13 +16,14 @@ Her öneride mümkün olduğunca şunları belirtin:
 - Kaynak bağlantısı
 - Son doğrulama tarihi
 
-`✅ RESMİ` etiketi yalnızca güncel bir Google Search Help veya Search Central kaynağıyla kullanılabilir. Kaynak önceliği ve doğrulama ölçütleri [kaynak politikasında](docs/kaynaklar.md#kaynak-politikası) açıklanır.
+Genel Web Search için `✅ RESMİ` etiketi yalnızca güncel bir Google Search Help, Search Central veya literal sözdizimi gösteren resmî Google arayüzüyle kullanılabilir. Ürüne özgü bir resmîlik iddiası, ilgili Google ürününün güncel yardımına veya arayüzüne dayanmalı ve ürün kapsamı açıkça yazılmalıdır. Kaynak önceliği ve doğrulama ölçütleri [kaynak politikasında](docs/kaynaklar.md#kaynak-politikası) açıklanır.
 
 ## Pull request kapsamı
 
 - Her pull request'i tek bir konu veya yakın ilişkili küçük bir değişiklik grubu ile sınırlayın.
 - Durum değişikliklerinde önceki ve yeni durumu, gerekçeyi ve dayanak kaynağı açıklayın.
 - URL parametrelerini operatör listesine eklemeyin; [URL parametreleri belgesinde](docs/google-url-parametreleri.md) tutun.
+- Scholar, Patents, Books veya Groups'e özgü biçimleri genel Web Search operatörü olarak sunmayın.
 - README'deki ana operatör listesinin ikinci bir kopyasını oluşturmayın.
 - Yer tutucu veya taslak metin bırakmayın; yerel Markdown bağlantılarını kontrol edin.
 
